@@ -1,0 +1,3 @@
+cat jupyter-notebook-2.log |  egrep '^\[' | grep '?token' | awk -F'=' '{print $2}' | tail -n 1
+
+cat jupyter-notebook-2.log | egrep '^gcloud'
