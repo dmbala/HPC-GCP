@@ -19,4 +19,4 @@ It is convenient to deploy an HPC cluster on the GCP cloud using terraform scrip
 Note that the minimal disk-size is 20 GB to accommodate the size of the VM. If you wan’t more than 20 GB, that’s okay.  
 
 The above steps are explained in the document page: https://cloud.google.com/architecture/deploying-slurm-cluster-compute-engine
-
+The deployment manager approach is explained in here: https://github.com/GoogleCloudPlatform/community/tree/master/tutorials/using-slurm-to-host-jupyter-notebooks-review
