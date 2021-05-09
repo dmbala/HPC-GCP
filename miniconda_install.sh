@@ -2,7 +2,7 @@ conda_version=4.9.2
 wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O /tmp/miniconda.sh
 chmod +x /tmp/miniconda.sh
 /tmp/miniconda.sh -b -p /apps/miniconda/$conda_version -f
-/apps/miniconda/$conda_version/bin/conda install jupyter
+/apps/miniconda/$conda_version/bin/conda install jupyter -y
 
 #conda_version=$( /apps/miniconda/bin/conda --version | awk '{print $2}')
 mkdir -p /apps/modulefiles/miniconda
